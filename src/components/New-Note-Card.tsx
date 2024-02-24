@@ -13,7 +13,7 @@ export function NewNoteCard() {
 
 	function handleContentChange(event: ChangeEvent<HTMLTextAreaElement>) {
 		setcontent(event.target.value);
-		if (event.target.value === "") setShouldShowOnboarding(true);
+		// if (event.target.value === "") setShouldShowOnboarding(true);
 	}
 
 	function handleSaveNote(event: FormEvent) {
